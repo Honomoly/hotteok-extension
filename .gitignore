@@ -1,0 +1,23 @@
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Compiled extensions & objects
+*.so
+*.o
+*.dylib
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store

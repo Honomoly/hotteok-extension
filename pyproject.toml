@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=69.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hotteok"
+version = "0.1.0"
+description = "A CPython C extension project"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Honomoly" },
+]
+keywords = ["data-structures", "unique-list", "ordered-set", "c-extension", "cpython"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: C",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://github.com/Honomoly/hotteok-extension"
+Repository = "https://github.com/Honomoly/hotteok-extension"
+Issues = "https://github.com/Honomoly/hotteok-extension/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["hotteok"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
