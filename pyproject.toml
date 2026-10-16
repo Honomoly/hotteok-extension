@@ -37,3 +37,6 @@ packages = ["hotteok"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[dependency-groups]
+dev = ["pytest"]
