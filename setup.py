@@ -12,6 +12,9 @@ setup(
                 "src/hotteok/_core",
                 "src/hotteok/_core/uniquelist",
             ],
+            extra_compile_args=[
+                "/utf-8"
+            ]
         )
     ],
 )

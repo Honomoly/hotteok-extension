@@ -7,6 +7,9 @@ dist/
 *.so
 *.o
 *.dylib
+*.exe
+*.dll
+*.pyd
 
 # Python
 __pycache__/
